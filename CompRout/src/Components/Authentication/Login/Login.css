@@ -1,0 +1,45 @@
+.login__container{
+    display:grid;
+    place-items: center;
+    height:80vh;
+    background-image: linear-gradient(to bottom right,#1d0950,#e6315a);
+}
+
+form > label, h1 {
+    color:#fefffc;
+}
+
+
+form > h6 {
+    margin-left:-15rem;
+    padding: 1rem;
+    color:#fefffc;
+}
+
+.username,.password{
+  padding: .5rem;
+  width:20rem;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:4rem;
+    width: 40rem;
+    background-image: linear-gradient(to right, #e2bf22,#fb7241);
+}
+
+.submit{
+    border-radius: 999px;
+    border:none;
+    padding:.5rem; 
+    width:5rem;   
+}
+
+.span1{
+    color:red;
+    font-weight: bold;
+}

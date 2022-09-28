@@ -1,0 +1,73 @@
+{
+    "product":[
+        {
+            "prod_name":"Television",
+            "Prod_id": "P01",
+            "desc": "Lorem ipsum",
+            "sub_prod":[
+                {
+                    "s_id":"T01",
+                    "company":"Samsung",
+                    "price":18000,
+                    "sub_desc":"Lorem ipsum",
+                    "s_img":"../../../../Images/tv.webp"
+                },
+                {
+                    "s_id":"T02",
+                    "company":"LG",
+                    "Price": 19000,
+                    "sub_desc":"Lorem_Ipusum",
+                    "s_img":"../../../../Images/tv.webp"
+                },
+                {
+                    "s_id":"T010",
+                    "company":"MI",
+                    "Price": 19000,
+                    "sub_desc":"Lorem_Ipusum",
+                    "s_img":"../../../../Images/tv.webp"
+                }
+            ]
+        },
+        {
+            "prod_name":"Laptop",
+            "prod_id":"P02",
+            "desc":"Lorem ipsum",
+            "sub_prod":[
+                {
+                    "s_id":"T03",
+                    "company":"Hp",
+                    "price":20000,
+                    "sub_desc":"Lorem ipsum",
+                    "s_img":"../../../../Images/laptop.webp"
+                },
+                {
+                    "s_id":"T04",
+                    "company":"Dell",
+                    "price":39999,
+                    "sub_desc":"Lorem ipsum",
+                    "s_img":"../../../../Images/laptop.webp"
+                }]
+        },
+        {
+            "prod_name":"mobile",
+            "prod_id":"P03",
+            "desc":"Lorem ipsum",
+             "sub_prod":[
+                {
+                    "s_id":"T05",
+                    "company":"realme",
+                    "price": 30000,
+                    "sub_desc": "lorem ipsum",
+                    "s_img":"../../../../Images/mobile.jpg"
+                },
+                {
+                    "s_id":"T06",
+                    "company":"redmi",
+                    "price":30002,
+                    "sub_desc":"Lorem_Ipusum",
+                    "s_img":"../../../../Images/mobile.jpg"
+                }
+             ]
+        }
+    ]
+}
